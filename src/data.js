@@ -57,7 +57,7 @@ import Agent12 from './assets/img/agents/agent12.png';
 export const housesData = [
   {
     id: 1,
-    category : 'buy',
+    category : 'Buy',
     type: 'House',
     name: 'House 1',
     description:
@@ -79,7 +79,7 @@ export const housesData = [
   },
   {
     id: 2,
-    category : 'rent',
+    category : 'Rent',
     type: 'House',
     name: 'House 2',
     description:
@@ -101,7 +101,7 @@ export const housesData = [
   },
   {
     id: 3,
-    category : 'buy',
+    category : 'Buy',
     type: 'House',
     name: 'House 3',
     description:
@@ -123,7 +123,7 @@ export const housesData = [
   },
   {
     id: 4,
-    category : 'rent',
+    category : 'Rent',
     type: 'House',
     name: 'House 4',
     description:
@@ -145,7 +145,7 @@ export const housesData = [
   },
   {
     id: 5,
-    category : 'buy',
+    category : 'Buy',
     type: 'House',
     name: 'House 5',
     description:
@@ -167,7 +167,7 @@ export const housesData = [
   },
   {
     id: 6,
-    category : 'rent',
+    category : 'Rent',
     type: 'House',
     name: 'House 6',
     description:
@@ -189,7 +189,7 @@ export const housesData = [
   },
   {
     id: 7,
-    category : 'sell',
+    category : 'Sell',
     type: 'Apartment',
     name: 'Apartment 1',
     description:
@@ -211,7 +211,7 @@ export const housesData = [
   },
   {
     id: 8,
-    category : 'rent',
+    category : 'Rent',
     type: 'Apartment',
     name: 'Apartment 2',
     description:
@@ -234,7 +234,7 @@ export const housesData = [
   {
     id: 9,
     type: 'Apartment',
-    category : 'sell',
+    category : 'Sell',
     name: 'Apartament 3',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -256,7 +256,7 @@ export const housesData = [
   {
     id: 10,
     type: 'House',
-    category : 'rent',
+    category : 'Rent',
     name: 'House 7',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -278,7 +278,7 @@ export const housesData = [
   {
     id: 11,
     type: 'House',
-    category : 'sell',
+    category : 'Sell',
     name: 'House 8',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -300,7 +300,7 @@ export const housesData = [
   {
     id: 12,
     type: 'House',
-    category : 'rent',
+    category : 'Rent',
     name: 'House 9',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -322,7 +322,7 @@ export const housesData = [
   {
     id: 13,
     type: 'House',
-    category : 'sell',
+    category : 'Sell',
     name: 'House 10',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -344,7 +344,7 @@ export const housesData = [
   {
     id: 14,
     type: 'House',
-    category : 'rent',
+    category : 'Rent',
     name: 'House 11',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -366,7 +366,7 @@ export const housesData = [
   {
     id: 15,
     type: 'House',
-    category : 'buy',
+    category : 'Buy',
     name: 'House 12',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -388,7 +388,7 @@ export const housesData = [
   {
     id: 16,
     type: 'Apartment',
-    category : 'rent',
+    category : 'Rent',
     name: 'Apartment 16',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -410,7 +410,7 @@ export const housesData = [
   {
     id: 17,
     type: 'Apartment',
-    category : 'buy',
+    category : 'Buy',
     name: 'Apartment 17',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -432,7 +432,7 @@ export const housesData = [
   {
     id: 18,
     type: 'Apartment',
-    category : 'buy',
+    category : 'Buy',
     name: 'Apartment 19',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -454,7 +454,7 @@ export const housesData = [
   {
     id: 19,
     type: 'Apartment',
-    category : 'sell',
+    category : 'Sell',
     name: 'Apartment 19',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -476,7 +476,7 @@ export const housesData = [
   {
     id: 20,
     type: 'Apartment',
-    category : 'buy',
+    category : 'Buy',
     name: 'Apartment 20',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -498,7 +498,7 @@ export const housesData = [
   {
     id: 21,
     type: 'Apartment',
-    category : 'sell',
+    category : 'Sell',
     name: 'Apartment 21',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -520,7 +520,7 @@ export const housesData = [
   {
     id: 22,
     type: 'Apartment',
-    category : 'rent',
+    category : 'Rent',
     name: 'Apartment 22',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -541,7 +541,7 @@ export const housesData = [
   },
   {
     id: 23,
-    category : 'buy',
+    category : 'Buy',
     type: 'Apartment',
     name: 'Apartment 23',
     description:
@@ -563,7 +563,7 @@ export const housesData = [
   },
   {
     id: 24,
-    category : 'rent',
+    category : 'Rent',
     type: 'Apartment',
     name: 'Apartment 24',
     description:
@@ -585,7 +585,7 @@ export const housesData = [
   },
   {
     id: 25,
-    category : 'sell',
+    category : 'Sell',
     type: 'Apartment',
     name: 'Apartment 25',
     description:
@@ -607,7 +607,7 @@ export const housesData = [
   },
   {
     id: 26,
-    category : 'rent',
+    category : 'Rent',
     type: 'Apartment',
     name: 'Apartment 26',
     description:
@@ -629,7 +629,7 @@ export const housesData = [
   },
   {
     id: 27,
-    category : 'rent',
+    category : 'Rent',
     type: 'Apartment',
     name: 'Apartment 28',
     description:
