@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <header className='py-2 mb-12 border-b border-grey'>
+    <header className=' mb-12 border-b border-grey'>
         <div className='container mx-auto flex justify-between items-center'>
             <Link to='/'>
-                <img  src={Logo} width="110"/>
+                <img  src={Logo} width="100"/>
             </Link>
             <div className='flex items-center gap-6'>
                 <Link className='hover:text-green-800 transition'>
