@@ -55,10 +55,10 @@ const HouseContextProv = ({ children }) => {
   }, [houses]);
 
   const handleClick = () => {
-    setLoading(false);
+    setLoading(true);
 
     const isDefault = (str) => {
-      return str.split("").includes("(any)");
+      return str.split(" ").includes("(any)");
     };
 
     const minPrice = parseInt(price.split("")[0]);
@@ -109,8 +109,8 @@ const HouseContextProv = ({ children }) => {
 
       // if property is selected;
       if (
-        isDefault(country) &&
         !isDefault(property) &&
+        isDefault(country) &&
         isDefault(category) &&
         isDefault(price) 
       ) {
@@ -119,9 +119,9 @@ const HouseContextProv = ({ children }) => {
 
       // if category is selected; 
       if (
+        !isDefault(category) &&
         isDefault(country) &&
         isDefault(property) &&
-        !isDefault(category) &&
         isDefault(price) 
       ) {
         return house.category === category;
@@ -129,10 +129,10 @@ const HouseContextProv = ({ children }) => {
 
       // if price is selected;
       if (
+        !isDefault(price)  &&
         isDefault(country) &&
         isDefault(property) &&
-        isDefault(category) &&
-        !isDefault(price) 
+        isDefault(category) 
       ) {
         if ( housePrice >= minPrice && housePrice <= maxPrice) {
           return house;
